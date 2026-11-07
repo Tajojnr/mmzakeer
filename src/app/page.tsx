@@ -177,6 +177,56 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ================= MEET THE FOUNDER ================= */}
+      <section className="relative z-10 border-t border-zinc-900 bg-zinc-950 px-4 py-24">
+        <div className="mx-auto max-w-5xl">
+          <div className="grid items-center gap-12 md:grid-cols-2">
+
+            {/* Founder Image */}
+            <div className="relative mx-auto h-[420px] w-full max-w-md overflow-hidden rounded-[2rem] border border-emerald-500/20 bg-zinc-900 shadow-[0_0_60px_rgba(16,185,129,0.10)]">
+              <Image
+                src="/images/founder.jpeg"
+                alt="M.M Zakeer - Founder & CEO"
+                fill
+                className="object-cover"
+                unoptimized
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/80 via-transparent to-transparent" />
+            </div>
+
+            {/* Greeting */}
+            <div className="text-center md:text-left">
+              <div className="mb-4 inline-flex items-center rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.24em] text-emerald-300">
+                Message from the Founder
+              </div>
+
+              <h2 className="mb-5 text-4xl font-bold leading-tight text-white md:text-5xl">
+                Hi, I’m <span className="text-emerald-400">M.M Zakeer</span>
+              </h2>
+
+              <p className="mb-4 text-lg leading-relaxed text-zinc-300">
+                Welcome to <span className="font-semibold text-white">M.M ZAKEER COMPUTER (00010)</span>.
+              </p>
+
+              <p className="text-lg leading-relaxed text-zinc-400">
+                Thank you for visiting us. We’re preparing something special for our amazing customers.
+              </p>
+
+              <p className="mt-6 text-xl font-bold text-emerald-400 md:text-2xl">
+                ✨ Stay tuned… amazing promos are coming soon 🚀
+              </p>
+
+              <div className="mt-8 border-t border-zinc-800 pt-6">
+                <p className="text-sm font-medium tracking-wide text-zinc-500 uppercase">
+                  — M.M Zakeer, Founder & CEO
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* Workstation spotlight */}
       <section
         id="workstation"
